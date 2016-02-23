@@ -15,6 +15,7 @@
 		454CCD861C7CF2E7008FD3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454CCD841C7CF2E7008FD3AF /* LaunchScreen.storyboard */; };
 		454CCD911C7CF2E8008FD3AF /* Sample1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454CCD901C7CF2E8008FD3AF /* Sample1Tests.m */; };
 		454CCD9C1C7CF2E8008FD3AF /* Sample1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454CCD9B1C7CF2E8008FD3AF /* Sample1UITests.m */; };
+		454CCDAA1C7D04B5008FD3AF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 454CCDA91C7D04B5008FD3AF /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		454CCD731C7CF2E7008FD3AF /* Sample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		454CCD731C7CF2E7008FD3AF /* MyStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		454CCD771C7CF2E7008FD3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		454CCD791C7CF2E7008FD3AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		454CCD7A1C7CF2E7008FD3AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +46,13 @@
 		454CCD821C7CF2E7008FD3AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		454CCD851C7CF2E7008FD3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		454CCD871C7CF2E7008FD3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		454CCD8C1C7CF2E8008FD3AF /* Sample1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		454CCD8C1C7CF2E8008FD3AF /* MyStatus.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStatus.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		454CCD901C7CF2E8008FD3AF /* Sample1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample1Tests.m; sourceTree = "<group>"; };
 		454CCD921C7CF2E8008FD3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		454CCD971C7CF2E8008FD3AF /* Sample1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		454CCD971C7CF2E8008FD3AF /* MyStatus.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStatus.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		454CCD9B1C7CF2E8008FD3AF /* Sample1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample1UITests.m; sourceTree = "<group>"; };
 		454CCD9D1C7CF2E8008FD3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454CCDA91C7D04B5008FD3AF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +83,10 @@
 		454CCD6A1C7CF2E7008FD3AF = {
 			isa = PBXGroup;
 			children = (
-				454CCD751C7CF2E7008FD3AF /* Sample1 */,
-				454CCD8F1C7CF2E8008FD3AF /* Sample1Tests */,
-				454CCD9A1C7CF2E8008FD3AF /* Sample1UITests */,
+				454CCDA91C7D04B5008FD3AF /* Default-568h@2x.png */,
+				454CCD751C7CF2E7008FD3AF /* MyStatus */,
+				454CCD8F1C7CF2E8008FD3AF /* MyStatusTests */,
+				454CCD9A1C7CF2E8008FD3AF /* MyStatusUITests */,
 				454CCD741C7CF2E7008FD3AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +94,14 @@
 		454CCD741C7CF2E7008FD3AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				454CCD731C7CF2E7008FD3AF /* Sample1.app */,
-				454CCD8C1C7CF2E8008FD3AF /* Sample1Tests.xctest */,
-				454CCD971C7CF2E8008FD3AF /* Sample1UITests.xctest */,
+				454CCD731C7CF2E7008FD3AF /* MyStatus.app */,
+				454CCD8C1C7CF2E8008FD3AF /* MyStatus.xctest */,
+				454CCD971C7CF2E8008FD3AF /* MyStatus.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		454CCD751C7CF2E7008FD3AF /* Sample1 */ = {
+		454CCD751C7CF2E7008FD3AF /* MyStatus */ = {
 			isa = PBXGroup;
 			children = (
 				454CCD791C7CF2E7008FD3AF /* AppDelegate.h */,
@@ -111,7 +114,7 @@
 				454CCD871C7CF2E7008FD3AF /* Info.plist */,
 				454CCD761C7CF2E7008FD3AF /* Supporting Files */,
 			);
-			path = Sample1;
+			path = MyStatus;
 			sourceTree = "<group>";
 		};
 		454CCD761C7CF2E7008FD3AF /* Supporting Files */ = {
@@ -122,30 +125,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		454CCD8F1C7CF2E8008FD3AF /* Sample1Tests */ = {
+		454CCD8F1C7CF2E8008FD3AF /* MyStatusTests */ = {
 			isa = PBXGroup;
 			children = (
 				454CCD901C7CF2E8008FD3AF /* Sample1Tests.m */,
 				454CCD921C7CF2E8008FD3AF /* Info.plist */,
 			);
-			path = Sample1Tests;
+			path = MyStatusTests;
 			sourceTree = "<group>";
 		};
-		454CCD9A1C7CF2E8008FD3AF /* Sample1UITests */ = {
+		454CCD9A1C7CF2E8008FD3AF /* MyStatusUITests */ = {
 			isa = PBXGroup;
 			children = (
 				454CCD9B1C7CF2E8008FD3AF /* Sample1UITests.m */,
 				454CCD9D1C7CF2E8008FD3AF /* Info.plist */,
 			);
-			path = Sample1UITests;
+			path = MyStatusUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		454CCD721C7CF2E7008FD3AF /* Sample1 */ = {
+		454CCD721C7CF2E7008FD3AF /* MyStatus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 454CCDA01C7CF2E8008FD3AF /* Build configuration list for PBXNativeTarget "Sample1" */;
+			buildConfigurationList = 454CCDA01C7CF2E8008FD3AF /* Build configuration list for PBXNativeTarget "MyStatus" */;
 			buildPhases = (
 				454CCD6F1C7CF2E7008FD3AF /* Sources */,
 				454CCD701C7CF2E7008FD3AF /* Frameworks */,
@@ -155,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = Sample1;
+			name = MyStatus;
 			productName = Sample1;
-			productReference = 454CCD731C7CF2E7008FD3AF /* Sample1.app */;
+			productReference = 454CCD731C7CF2E7008FD3AF /* MyStatus.app */;
 			productType = "com.apple.product-type.application";
 		};
-		454CCD8B1C7CF2E8008FD3AF /* Sample1Tests */ = {
+		454CCD8B1C7CF2E8008FD3AF /* MyStatusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 454CCDA31C7CF2E8008FD3AF /* Build configuration list for PBXNativeTarget "Sample1Tests" */;
+			buildConfigurationList = 454CCDA31C7CF2E8008FD3AF /* Build configuration list for PBXNativeTarget "MyStatusTests" */;
 			buildPhases = (
 				454CCD881C7CF2E8008FD3AF /* Sources */,
 				454CCD891C7CF2E8008FD3AF /* Frameworks */,
@@ -173,14 +176,14 @@
 			dependencies = (
 				454CCD8E1C7CF2E8008FD3AF /* PBXTargetDependency */,
 			);
-			name = Sample1Tests;
+			name = MyStatusTests;
 			productName = Sample1Tests;
-			productReference = 454CCD8C1C7CF2E8008FD3AF /* Sample1Tests.xctest */;
+			productReference = 454CCD8C1C7CF2E8008FD3AF /* MyStatus.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		454CCD961C7CF2E8008FD3AF /* Sample1UITests */ = {
+		454CCD961C7CF2E8008FD3AF /* MyStatusUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 454CCDA61C7CF2E8008FD3AF /* Build configuration list for PBXNativeTarget "Sample1UITests" */;
+			buildConfigurationList = 454CCDA61C7CF2E8008FD3AF /* Build configuration list for PBXNativeTarget "MyStatusUITests" */;
 			buildPhases = (
 				454CCD931C7CF2E8008FD3AF /* Sources */,
 				454CCD941C7CF2E8008FD3AF /* Frameworks */,
@@ -191,9 +194,9 @@
 			dependencies = (
 				454CCD991C7CF2E8008FD3AF /* PBXTargetDependency */,
 			);
-			name = Sample1UITests;
+			name = MyStatusUITests;
 			productName = Sample1UITests;
-			productReference = 454CCD971C7CF2E8008FD3AF /* Sample1UITests.xctest */;
+			productReference = 454CCD971C7CF2E8008FD3AF /* MyStatus.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 454CCD6E1C7CF2E7008FD3AF /* Build configuration list for PBXProject "Sample1" */;
+			buildConfigurationList = 454CCD6E1C7CF2E7008FD3AF /* Build configuration list for PBXProject "MyStatus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				454CCD721C7CF2E7008FD3AF /* Sample1 */,
-				454CCD8B1C7CF2E8008FD3AF /* Sample1Tests */,
-				454CCD961C7CF2E8008FD3AF /* Sample1UITests */,
+				454CCD721C7CF2E7008FD3AF /* MyStatus */,
+				454CCD8B1C7CF2E8008FD3AF /* MyStatusTests */,
+				454CCD961C7CF2E8008FD3AF /* MyStatusUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				454CCD861C7CF2E7008FD3AF /* LaunchScreen.storyboard in Resources */,
+				454CCDAA1C7D04B5008FD3AF /* Default-568h@2x.png in Resources */,
 				454CCD831C7CF2E7008FD3AF /* Assets.xcassets in Resources */,
 				454CCD811C7CF2E7008FD3AF /* Main.storyboard in Resources */,
 			);
@@ -297,12 +301,12 @@
 /* Begin PBXTargetDependency section */
 		454CCD8E1C7CF2E8008FD3AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 454CCD721C7CF2E7008FD3AF /* Sample1 */;
+			target = 454CCD721C7CF2E7008FD3AF /* MyStatus */;
 			targetProxy = 454CCD8D1C7CF2E8008FD3AF /* PBXContainerItemProxy */;
 		};
 		454CCD991C7CF2E8008FD3AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 454CCD721C7CF2E7008FD3AF /* Sample1 */;
+			target = 454CCD721C7CF2E7008FD3AF /* MyStatus */;
 			targetProxy = 454CCD981C7CF2E8008FD3AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -413,10 +417,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Sample1/Info.plist;
+				INFOPLIST_FILE = MyStatus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mudit.Sample1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyStatus;
 			};
 			name = Debug;
 		};
@@ -424,10 +428,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Sample1/Info.plist;
+				INFOPLIST_FILE = MyStatus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mudit.Sample1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyStatus;
 			};
 			name = Release;
 		};
@@ -438,8 +442,8 @@
 				INFOPLIST_FILE = Sample1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mudit.Sample1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample1.app/Sample1";
+				PRODUCT_NAME = MyStatus;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStatus.app/MyStatus";
 			};
 			name = Debug;
 		};
@@ -450,8 +454,8 @@
 				INFOPLIST_FILE = Sample1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mudit.Sample1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample1.app/Sample1";
+				PRODUCT_NAME = MyStatus;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStatus.app/MyStatus";
 			};
 			name = Release;
 		};
@@ -461,7 +465,7 @@
 				INFOPLIST_FILE = Sample1UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mudit.Sample1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyStatus;
 				TEST_TARGET_NAME = Sample1;
 				USES_XCTRUNNER = YES;
 			};
@@ -473,7 +477,7 @@
 				INFOPLIST_FILE = Sample1UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mudit.Sample1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyStatus;
 				TEST_TARGET_NAME = Sample1;
 				USES_XCTRUNNER = YES;
 			};
@@ -482,7 +486,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		454CCD6E1C7CF2E7008FD3AF /* Build configuration list for PBXProject "Sample1" */ = {
+		454CCD6E1C7CF2E7008FD3AF /* Build configuration list for PBXProject "MyStatus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				454CCD9E1C7CF2E8008FD3AF /* Debug */,
@@ -491,29 +495,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		454CCDA01C7CF2E8008FD3AF /* Build configuration list for PBXNativeTarget "Sample1" */ = {
+		454CCDA01C7CF2E8008FD3AF /* Build configuration list for PBXNativeTarget "MyStatus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				454CCDA11C7CF2E8008FD3AF /* Debug */,
 				454CCDA21C7CF2E8008FD3AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		454CCDA31C7CF2E8008FD3AF /* Build configuration list for PBXNativeTarget "Sample1Tests" */ = {
+		454CCDA31C7CF2E8008FD3AF /* Build configuration list for PBXNativeTarget "MyStatusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				454CCDA41C7CF2E8008FD3AF /* Debug */,
 				454CCDA51C7CF2E8008FD3AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		454CCDA61C7CF2E8008FD3AF /* Build configuration list for PBXNativeTarget "Sample1UITests" */ = {
+		454CCDA61C7CF2E8008FD3AF /* Build configuration list for PBXNativeTarget "MyStatusUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				454CCDA71C7CF2E8008FD3AF /* Debug */,
 				454CCDA81C7CF2E8008FD3AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
