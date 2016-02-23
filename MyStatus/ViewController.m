@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  Sample1
+//  MyStatus
 //
 //  Created by Mudit Ameta on 24/02/16.
 //  Copyright © 2016 Mudit Ameta. All rights reserved.

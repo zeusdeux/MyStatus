@@ -1,6 +1,6 @@
 //
-//  Sample1Tests.m
-//  Sample1Tests
+//  MyStatusTests.m
+//  MyStatusTests
 //
 //  Created by Mudit Ameta on 24/02/16.
 //  Copyright © 2016 Mudit Ameta. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface Sample1Tests : XCTestCase
+@interface MyStatusTests : XCTestCase
 
 @end
 
-@implementation Sample1Tests
+@implementation MyStatusTests
 
 - (void)setUp {
     [super setUp];
