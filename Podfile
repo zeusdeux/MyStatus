@@ -3,8 +3,10 @@
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
 target 'MyStatus' do
-
+	pod 'AFNetworking', '~> 3.0'
 end
 
 target 'MyStatusTests' do
@@ -15,3 +17,4 @@ target 'MyStatusUITests' do
 
 end
 
+workspace 'MyStatus'
