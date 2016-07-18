@@ -240,6 +240,7 @@
 				TargetAttributes = {
 					454CCD721C7CF2E7008FD3AF = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = E7R82454KY;
 					};
 					454CCD8B1C7CF2E8008FD3AF = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -497,10 +498,13 @@
 			baseConfigurationReference = C8FD238B0D13588D55ABB52F /* Pods-MyStatus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyStatus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mudit.MyStatus;
 				PRODUCT_NAME = MyStatus;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -509,10 +513,13 @@
 			baseConfigurationReference = DAC3647D545AAD95DBEADA15 /* Pods-MyStatus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyStatus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mudit.MyStatus;
 				PRODUCT_NAME = MyStatus;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
